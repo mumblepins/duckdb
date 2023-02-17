@@ -32,7 +32,6 @@ static double AffineGapDistance(const string_t &s1, const string_t &s2, double m
 	std::vector<double> V_current(s1_len + 1, 0);
 	std::vector<double> V_previous(s1_len + 1, 0);
 
-	double distance;
 	char char1;
 	char char2;
 	double I, M;
