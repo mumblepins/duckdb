@@ -78,6 +78,9 @@
 #include "inet-extension.hpp"
 #endif
 
+#if defined(BUILD_AFFINEGAP_EXTENSION) && !defined(DISABLE_BUILTIN_EXTENSIONS)
+#include "affine-gap-extension.hpp"
+#endif
 namespace duckdb {
 
 //===--------------------------------------------------------------------===//

@@ -44,6 +44,7 @@ jobs:
       BUILD_PARQUET: 1
       BUILD_SUBSTRAIT_EXTENSION: 1
       BUILD_JEMALLOC: 1
+      BUILD_AFFINEGAP: 1
       GEN: ninja
 
     steps:
@@ -87,6 +88,7 @@ jobs:
       BUILD_JSON: 1
       BUILD_EXCEL: 1
       BUILD_JEMALLOC: 1
+      BUILD_AFFINEGAP: 1
 
     steps:
     - uses: actions/checkout@v3
@@ -128,6 +130,7 @@ jobs:
       BUILD_JSON: 1
       BUILD_EXCEL: 1
       BUILD_JEMALLOC: 1
+      BUILD_AFFINEGAP: 1
 
     steps:
     - uses: actions/checkout@v3
@@ -168,6 +171,7 @@ jobs:
       BUILD_VISUALIZER: 1
       BUILD_JSON: 1
       BUILD_EXCEL: 1
+      BUILD_AFFINEGAP: 1
       DISABLE_STRING_INLINE: 1
 
     steps:
@@ -209,6 +213,7 @@ jobs:
      BUILD_VISUALIZER: 1
      BUILD_JSON: 1
      BUILD_EXCEL: 1
+     BUILD_AFFINEGAP: 1
      DESTROY_UNPINNED_BLOCKS: 1
 
    steps:
@@ -256,6 +261,7 @@ jobs:
       BUILD_JSON: 1
       BUILD_EXCEL: 1
       BUILD_JEMALLOC: 1
+      BUILD_AFFINEGAP: 1
       TSAN_OPTIONS: suppressions=.sanitizer-thread-suppressions.txt
 
     steps:

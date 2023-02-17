@@ -45,3 +45,7 @@ endif()
 if(${BUILD_INET_EXTENSION})
   add_subdirectory(inet)
 endif()
+
+if(${BUILD_AFFINEGAP_EXTENSION})
+  add_subdirectory(affine-gap)
+endif()
